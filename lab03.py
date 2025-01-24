@@ -42,4 +42,7 @@ for j in range(1, 21, 1):
     else:
         print("It's a tie!")
 
+    if j != 11:
+        print(f"\n Battle concluded after 20 rounds!")
+
         
