@@ -33,3 +33,13 @@ for j in range(1, 21, 1):
     print(f"\n Hero rolled {heroRoll}, Monster rolled {monsterRoll}")
     print(f"\n Hero selected {heroWeapon}, Monster selected {monsterWeapon}")
     print(f"\n Hero total Strength: {heroTotal}, Monster total Strength: {monsterTotal}")
+
+    #Determine the winner
+    if heroTotal > monsterTotal:
+        print("Hero wins!")
+    elif heroTotal < monsterTotal:
+        print("Monster wins!")
+    else:
+        print("It's a tie!")
+
+        
